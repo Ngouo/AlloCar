@@ -80,7 +80,7 @@ function App() {
             <p className="font-semibold text-dark text-3xl">
               AlloCar
             </p>
-            <img src="./src/assets/voiture.png" width={35} height={35} alt="" />
+            <img src="./public/assets/voiture.png" width={35} height={35} alt="" />
           </div>
           <div className="flex gap-2 lg:ml-auto ml-auto">
             <input 
@@ -96,7 +96,7 @@ function App() {
 
         <div className="grid grid-col-1 lg:pt-6  pt-15 ml-auto lg:flex">
             <button className="btn mt-6 lg:mt-1 sm:mt-0 mx-3 bg-blue-100 w-15 ml-auto" onClick={ChangeTheme}>
-              <img src="./src/assets/day-mode.png" alt="" width={25} height={25} />
+              <img src="./public/assets/day-mode.png" alt="" width={25} height={25} />
             </button>
         </div>
 
